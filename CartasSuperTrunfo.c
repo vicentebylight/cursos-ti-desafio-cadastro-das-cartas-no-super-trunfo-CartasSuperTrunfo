@@ -28,7 +28,7 @@ printf ("Populacao: \n");
 scanf ("%d\n, &populacao: ");
 
 printf ("Area: \n");
-scanf ("%f\n, &area);
+scanf ("%f\n, &area");
 
 printf ("PIB: \n");
 scanf ("%f\n, &PIB");
