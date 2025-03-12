@@ -48,13 +48,13 @@ scanf ("%d, &pontos_turisticos\n");
 
 printf ("Carta_01\n");
 
-printf ("Estado: %s, &estado\n");
-printf ("Codigo: %s, &codigo\n");
-printf ("Nome da cidade: %s, &nome_da_cidade\n");
-printf ("População: %d, &populacao\n");
-printf ("Area: %f, &area\n");
-printf ("PIB: %f, &PIB\n");
-printf ("Pontos Turisticos: %d, &pontos_turisticos\n");
+printf ("Estado: %s\n, &estado");
+printf ("Codigo: %s\n, &codigo");
+printf ("Nome da cidade: %s\n, &nome_da_cidade");
+printf ("População: %d\n, &populacao");
+printf ("Area: %f\n, &area");
+printf ("PIB: %f\n, &PIB");
+printf ("Pontos Turisticos: %d\n, &pontos_turisticos\n");
 
 return 0;
 
