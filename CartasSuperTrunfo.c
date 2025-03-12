@@ -9,32 +9,13 @@ int main() {
     char estado [30] = "Ceara\n";
     char codigo [20] = "A01\n";
     char nome_da_cidade [30] = "Fortaleza\n";
-    int populacao = "20000000\n";
+    int populacao = 2000;
     float area = 10000;
     float PIB = 20000000;
     int pontos_turisticos = 99;
 
+printf ("Digite o estado: \n");
 
-printf ("Estado: \n");
-scanf ("%s\n, &estado");
-
-printf ("Codigo da carta: \n");
-scanf ("%s\n, &codigo");
-
-printf ("Cidade: \n");
-scanf ("%s\n, &nome_da_cidade");
-
-printf ("Populacao: \n");
-scanf ("%d\n, &populacao: ");
-
-printf ("Area: \n");
-scanf ("%f\n, &area");
-
-printf ("PIB: \n");
-scanf ("%f\n, &PIB");
-
-printf ("Numero de pontos turisticos: \n");
-scanf ("%d\n, &pontos_turisticos");
 
 printf ("Estado: %s\n, &estado");
 printf ("Codigo: %s\n, &codigo");
