@@ -14,39 +14,27 @@ int main() {
     float PIB = 20000000;
     int pontos_turisticos = 99;
 
-    printf ("Carta_02\n");
-
-    char estado [30] = "Pernambuco\n";
-    char codigo [20] = "A02\n";
-    char nome_da_cidade [30] = "Recife\n";
-    int populacao = "300000000\n";
-    float area = 20000;
-    float PIB = 40000000;
-    int pontos_turisticos = 50;
-
 
 printf ("Estado: \n");
-scanf ("%s, &estado/n");
+scanf ("%s\n, &estado");
 
 printf ("Codigo da carta: \n");
-scanf ("%s, &codigo\n");
+scanf ("%s\n, &codigo");
 
 printf ("Cidade: \n");
-scanf ("%s, &nome_da_cidade\n");
+scanf ("%s\n, &nome_da_cidade");
 
 printf ("Populacao: \n");
-scanf ("%d, &populacao: \n");
+scanf ("%d\n, &populacao: ");
 
 printf ("Area: \n");
-scanf ("%f, &area\n");
+scanf ("%f\n, &area);
 
 printf ("PIB: \n");
-scanf ("%f, &PIB\n");
+scanf ("%f\n, &PIB");
 
 printf ("Numero de pontos turisticos: \n");
-scanf ("%d, &pontos_turisticos\n");
-
-printf ("Carta_01\n");
+scanf ("%d\n, &pontos_turisticos");
 
 printf ("Estado: %s\n, &estado");
 printf ("Codigo: %s\n, &codigo");
