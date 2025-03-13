@@ -38,7 +38,7 @@ scanf ("%d, &pontos_turisticos");
 
 printf ("Estado: %s\n, &estado");
 printf ("Codigo: %s\n, &codigo");
-printf ("Nome da cidade: %s\n, &nome_da_cidade");
+printf ("Nome da cidade: %s\n, &cidade");
 printf ("População: %d\n, &populacao");
 printf ("Area: %f\n, &area");
 printf ("PIB: %f\n, &PIB");
