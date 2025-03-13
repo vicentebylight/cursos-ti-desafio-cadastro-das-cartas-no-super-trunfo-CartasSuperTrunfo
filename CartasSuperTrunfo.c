@@ -1,53 +1,33 @@
 #include <stdio.h>
 
 int main() {
+
     
     printf ("Desafio Super Trunfo - Países\n");
 
     printf ("Carta_01\n");
 
-    char estado [30] = "Ceara\n";
-    char codigo [20] = "A01\n";
+    char estado [10] = "A";
+    char codigo [10] = "A01\n";
     char cidade [30] = "Fortaleza\n";
-    int populacao = 2000;
-    float area = 10000;
-    float PIB = 20000000;
-    int pontos_turisticos = 99;
+    int populacao = 200.000;
+    float area = 100.10;
+    int pontos = 25;
 
-printf ("Estado: \n");
-scanf ("%s, &estado");
+    
+printf ("Estado: %s\n Codigo: %s\n Cidade: %s\n população: %d\n Area: %f\n Pontos turisticos: %d\n", estado, codigo, cidade, populacao, area, pontos);
 
-printf ("Codigo: \n");
-scanf ("%s, &codigo");
+printf ("Carta_02\n");
 
-printf ("Cidade: \n");
-scanf ("%s, &cidade");
+    char estado [10] = "B";
+    char codigo [20] = "B01\n";
+    char cidade [30] = "Recife\n";
+    int populacao = 300.000;
+    float area = 200.20;
+    int pontos = 50;
 
-printf ("População: \n");
-scanf ("%d, &populacao");
-
-printf ("Area: \n");
-scanf ("%f, &area");
-
-printf ("PIB: \n");
-scanf ("%f, &pib");
-
-printf ("Pontos turisticos: \n");
-scanf ("%d, &pontos_turisticos");
-
-
-printf ("Estado: %s\n, &estado");
-printf ("Codigo: %s\n, &codigo");
-printf ("Nome da cidade: %s\n, &cidade");
-printf ("População: %d\n, &populacao");
-printf ("Area: %f\n, &area");
-printf ("PIB: %f\n, &PIB");
-printf ("Pontos Turisticos: %d\n, &pontos_turisticos\n");
-
+    printf ("Estado: %s\n Codigo: %s\n Cidade: %s\n população: %d\n Area: %f\n Pontos turisticos: %d\n", estado, codigo, cidade, populacao, area, pontos);
+    
 return 0;
-
-
-
-
 
 }
