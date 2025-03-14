@@ -1,54 +1,55 @@
 #include <stdio.h>
 
 int main() {
+    printf("Desafio Super Trunfo - Países\n");
 
-    
-    printf ("Desafio Super Trunfo - Países\n");
+    // Carta 01
+    printf("\nCarta_01\n");
 
-    printf ("Carta_01\n");
+    int populacao1 = 100000;
+    float area1 = 100000.0;
+    float PIB1 = 150000.0;
+    int pontos1 = 25 ;
 
-    int populacao = 200.000;
-    float area = 100.100;
-    float PIB = 200.000;
-    int pontos = 25;
+    printf("População: ", populacao1);
+    scanf("%d", &populacao1);
 
-    printf ("População: \n");
-    scanf ("%d, &populacao");
+    printf("Área: ", area1);
+    scanf("%f", &area1);
 
-    printf ("Area: \n");
-    scanf ("%f, &area");
+    printf("PIB: ", PIB1);
+    scanf("%f", &PIB1);
 
-    printf ("PIB: \n");
-    scanf ("%f, &PIB");
+    printf("Pontos turísticos: ", pontos1);
+    scanf("%d", &pontos1);
 
-    printf ("Pontos turisticos: \n");
-    scanf ("%d, &pontos");
+    printf("\nDados da Carta 01:\n");
+    printf("População: %d\nÁrea: %.2f\nPIB: %.2f\nPontos turísticos: %d\n", 
+           populacao1, area1, PIB1, pontos1);
 
-printf ("População: %d\n Area: %f\n PIB: %f \n Pontos turisticos: %d\n", populacao, area, PIB, pontos);
+    // Carta 02
+    printf("\nCarta_02\n");
 
+    int populacao2 = 200000;
+    float area2 = 200000.0;
+    float PIB2 = 2200000.0;
+    int pontos2 = 35;
 
-printf ("Carta_02\n");
+    printf("População: ", populacao2);
+    scanf("%d", &populacao2);
 
-    int populacao = 300.000;
-    float area = 200.200;
-    float PIB = 300.000;
-    int pontos = 50;
+    printf("Área: ", area2);
+    scanf("%f", &area2);
 
-    printf ("População: \n");
-    scanf ("%d, &populacao");
+    printf("PIB: ", PIB2);
+    scanf("%f", &PIB2);
 
-    printf ("Area: \n");
-    scanf ("%f, &area");
+    printf("Pontos turísticos: ", pontos2);
+    scanf("%d", &pontos2);
 
-    printf ("PIB: \n");
-    scanf ("%f, &PIB");
+    printf("\nDados da Carta 02:\n");
+    printf("População: %d\n Área: %.2f\n PIB: %.2f\n Pontos turísticos: %d\n", 
+           populacao2, area2, PIB2, pontos2);
 
-    printf ("Pontos turisticos: \n");
-    scanf ("%d, &pontos");
-
-    printf ("População: %d\n Area: %f\n PIB: %f \n Pontos turisticos: %d\n", populacao, area, PIB, pontos);
-
-
-return 0;
-
+    return 0;
 }
